@@ -1,4 +1,4 @@
-if [ "$1" == "--logs" ]; then
+if [ "$1" == "--logs" ] || [ "$1" == "-l" ]; then
   numFiles=100
   if [ -n "$2" ]; then
     numFiles=$2
